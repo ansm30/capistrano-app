@@ -5,3 +5,12 @@ development:
   pool: 5
   username: postgres
   password: postgres
+
+
+production:
+  adapter: postgresql
+  encoding: unicode
+  database: capistrano_app_development
+  pool: 5
+  username: postgres
+  password: postgres
